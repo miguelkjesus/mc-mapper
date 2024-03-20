@@ -1,0 +1,24 @@
+port: 3000
+
+imageGeneration:
+  unmined: .\unmined\unmined-cli
+
+  deleteStoredTilesOnStart: true
+
+  tileSize:
+    unit: r # b: blocks, c: chunks, r: regions
+    x: 1
+    y: 1
+
+  dimensions:
+    overworld: true
+    nether: true
+    end: true
+
+  levelsOfDetail:
+    - 0
+    - -1
+    - -2
+    - -3
+    - -4
+    - -5
